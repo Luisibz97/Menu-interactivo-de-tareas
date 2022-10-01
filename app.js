@@ -80,13 +80,7 @@ const main = async () => {
         }
         
         saveDB(tareas.listadoArr)
-        
-        // const tareas = new Tareas()
-        // const tarea = new Tarea('Comprar Comida')
 
-        // tareas._listado[tarea.id] = tareas
-
-        // console.log(tareas);
         if (opt !== '0' ) await pausa();
         
     } while (opt !== '0');

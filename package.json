@@ -4,7 +4,7 @@
   "description": "Menu interactivo de tareas por hacer",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "Luis Ibañez",

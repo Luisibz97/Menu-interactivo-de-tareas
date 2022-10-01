@@ -43,7 +43,7 @@ class Tareas {
 
         //Esto inserta la tarea en el listado
         this._listado[tarea.id] = tarea
-        // console.log(this._listado);
+        
     }
 
 
@@ -103,8 +103,8 @@ class Tareas {
             if ( !ids.includes(tarea.id) ) {
 
                 this._listado[tarea.id].completadoEn = null
-                // const tarea = this._listado[id]
-                // tarea.completadoEn = null
+                // const tarea = this._listado[id] // Esto y lo de abajo seria lo mismo que arriba pero simplif.
+                // tarea.completadoEn = null 
 
             }
 
